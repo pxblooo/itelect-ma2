@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Portable Bluetooth Speaker",
+    "price": 1200,
+    "category": "Electronics",
+    "description": "Good condition, works perfectly, includes charging cable",
+    "seller": "Juan Dela Cruz"
+  },
+  {
+    "id": 2,
+    "name": "Textbook",
+    "price": 900,
+    "category": "Books",
+    "description": "slightly worn",
+    "seller": "Timothy Lee"
+  },
+  {
+    "id": 3,
+    "name": "Harry Potter Book",
+    "price": 4000,
+    "category": "Books",
+    "description": "Classic novel, good condition, no markings",
+    "seller": "J.K. Rowling"
+  },
+  {
+    "id": 4,
+    "name": "Harry Potter Wand",
+    "price": 5500,
+    "category": "Item",
+    "description": "Replica wand, made of wood, 10 inches long",
+    "seller": "Ollivander's Wand Shop"
+  },
+  {
+    "id": 5,
+    "name": "Replica Hogwarts Uniform",
+    "price": 7500,
+    "category": "Item",
+    "description": "Replica uniform, made of high-quality fabric, fits well",
+    "seller": "Hogwarts School of Witchcraft and Wizardry"
+  },
+  {
+    "id": 6,
+    "name": "Harry Potter Book",
+    "price": 4000,
+    "category": "Books",
+    "description": "Classic novel, good condition, no markings",
+    "seller": "J.K. Rowling"
+  }
+]

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Marketplace - Overview</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div style="padding: 20px; max-width: 1400px; margin: 0 auto;">
+    <h1 style="margin: 0 0 10px 0; font-size: 24px;">Local Marketplace</h1>
+    <p style="margin: 0 0 20px 0;">
+      <a href="/" style="color: #0066cc; text-decoration: none;">Home</a> | 
+      <a href="/api" style="color: #0066cc; text-decoration: none;">API</a>
+      <button class="btn-add-product" onclick="window.location.href='/add-product'">Add Item</button>
+    </p>
+    <hr style="border: none; border-top: 1px solid #ddd; margin: 20px 0;">
+    <div class="products-grid">
+      {%PRODUCT_CARDS%}
+    </div>
+  </div>
+</body>
+</html>

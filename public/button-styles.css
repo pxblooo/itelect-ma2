@@ -1,0 +1,68 @@
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.btn-add-product {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.card-footer {
+  padding: 20px;
+  padding-top: 0;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn-view-details {
+  background: #007bff;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  flex: 1;
+  text-align: center;
+  min-width: 80px;
+  display: inline-block;
+}
+
+.btn-update {
+  background: #ffc107;
+  color: #000;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  flex: 1;
+  min-width: 60px;
+}
+
+.btn-delete {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  flex: 1;
+  min-width: 60px;
+}

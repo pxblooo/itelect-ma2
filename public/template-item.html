@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{%PRODUCTNAME%} - Local Marketplace</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div style="padding: 20px; max-width: 1400px; margin: 0 auto;">
+    <h1 style="margin: 0 0 10px 0; font-size: 24px; font-weight: 600;">{%PRODUCTNAME%}</h1>
+    <p style="margin: 0 0 20px 0;">
+      <a href="/overview" style="color: #0066cc; text-decoration: none;">Overview</a>
+    </p>
+    
+    <p style="margin: 10px 0; font-size: 14px;"><strong>Price:</strong> ₱{%PRICE%}</p>
+    <p style="margin: 10px 0; font-size: 14px;"><strong>Category:</strong> {%CATEGORY%}</p>
+    <p style="margin: 10px 0; font-size: 14px;"><strong>Description:</strong> {%DESCRIPTION%}</p>
+    <p style="margin: 10px 0; font-size: 14px;"><strong>Seller:</strong> {%SELLER%}</p>
+    
+    <p style="margin: 20px 0; font-size: 14px;">
+      <a href="/overview" style="color: #0066cc; text-decoration: none;">Back to overview</a>
+      <span style="margin: 0 5px; color: #999;">|</span>
+      <a href="#" onclick="alert('Edit not implemented'); return false;" style="color: #0066cc; text-decoration: none;">Edit</a>
+      <span style="margin: 0 5px; color: #999;">|</span>
+      <a href="/item?id={%ID%}&format=json" style="color: #0066cc; text-decoration: none;">API</a>
+    </p>
+  </div>
+</body>
+</html>
